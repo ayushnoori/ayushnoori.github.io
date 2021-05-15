@@ -35,3 +35,11 @@ h2 {
     margin-bottom: 0.75em;
     margin-top: 2em;
 }
+
+#title1 {
+    margin-bottom: 0 !important;
+}
+
+#title2 {
+    margin-bottom: 3em !important;
+}
