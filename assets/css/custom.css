@@ -1,4 +1,4 @@
-#footer, #title1, #title2, p, .profile {
+#footer, #title1, #title2, p, .profile, .generic-title {
     position: relative;
     z-index: 3;
 }
