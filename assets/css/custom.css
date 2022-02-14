@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
   }
 
-#footer, #title1, #title2, p, .profile, .generic-title, button {
+#footer, #home, #title2, p, .profile, .generic-title, button {
     position: relative;
     z-index: 3;
 }
@@ -50,7 +50,7 @@ h2 {
     margin-top: 2em;
 }
 
-#title1 {
+#home {
     margin-bottom: 0 !important;
     pointer-events: none;
 }
@@ -59,7 +59,7 @@ h2 {
     margin-bottom: 3em !important;
 }
 
-#title1, #title2 {
+#home, #title2 {
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
