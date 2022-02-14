@@ -9,6 +9,10 @@
 	var	$window = $(window),
 		$body = $('body');
 
+	// // new code from Ayush!
+	var $particles_button = $('.particles-button');
+	var $particles_js = $('.particles-js');
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -180,6 +184,14 @@
 					if (event.keyCode == 27)
 						$menu._hide();
 
+			});
+
+		// code from Ayush!
+		$particles_button
+			.on('click', function(event) {
+
+				$particles_js.toggleClass('hidden');
+				
 			});
 
 })(jQuery);
