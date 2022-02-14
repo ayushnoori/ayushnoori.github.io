@@ -8,7 +8,8 @@ html {
 }
 
 #title2 {
-    max-width: 13em;
+    /* max-width: 13em; */
+    max-width: 15em;
 }
 
 .title {
